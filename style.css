@@ -1,8 +1,8 @@
 fieldset{
     text-align: center;
-    border-color: orange;
-    margin-left: 20%;
-    margin-right: 20%;
+    border-color: sienna;
+    margin-left: 25%;
+    margin-right: 25%;
     padding-bottom: 50px;
 }
 
@@ -22,17 +22,31 @@ legend{
     width:54%%;
     float: left;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 20px;
     
 }
 
 .container2 input,textarea,select{
     background-color: lemonchiffon;
+    border:1px solid sienna;
+    
    
 }
 
 .container2 button1{
     background-color: lemonchiffon;    
-    border: 2px solid sienna;
+    border:1px solid sienna;
+    border-radius: 5px;
     padding: 5px;
 }
+
+.container2 select,button1{
+    color:sienna;
+}
+
+input[type="file"]{
+	background-color: white;
+	border:none;
+	margin-bottom:10px;
+}
+
