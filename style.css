@@ -1,0 +1,38 @@
+fieldset{
+    text-align: center;
+    border-color: orange;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 50px;
+}
+
+legend{
+    border: 2px solid red;
+    color:white;
+    background-color: orange;
+}
+
+.container1{
+    float: left;
+    width:45%;
+    text-align: right;
+}
+
+.container2{
+    width:54%%;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.container2 input,textarea,select{
+    background-color: lemonchiffon;
+   
+}
+
+.container2 button1{
+    background-color: lemonchiffon;    
+    border: 2px solid sienna;
+    padding: 5px;
+}
